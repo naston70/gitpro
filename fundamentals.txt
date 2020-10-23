@@ -1,0 +1,35 @@
+# Notes from freecodecamp.org 
+#
+
+--------------------------------------------------------------------------------------
+
+
+There are four fundamental elements in the Git Workflow:
+
+Working Directory -> Staging Area -> Local Repository -> Remote Repository
+
+--------------------------------------------------------------------------------------
+
+A file in the Working Directory can be in three possible states.
+
+1. It can be staged. Which means files with changes are marked to be committed to the local repo but not yet committed
+
+2. It can be modified. Files with updated changes are not yet stored in the local repo
+
+3. It can be committed. Changes made to the files are stored safely in the local repo
+
+--------------------------------------------------------------------------------------
+
+COMMANDS	DESCRIPTION
+
+git add		used to add a file in the working directory to the staging area
+
+git commit	used to add all files that are staged to the local repo
+
+git push	used to add all committed files in the local repo to the remote repo
+
+git fetch	used to get all files from the remote repo to the local repo
+
+git merge	used to get files from the local repo to the working directory
+
+git pull	used to get files from a remote repo directly into the working dir		
